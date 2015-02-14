@@ -1,7 +1,7 @@
 Just A Morpher - A morpher for x86 WoW.
 
-Suport WoW versions (18019,17898,18414)
+Support WoW versions (18019,17898,18414)
 
-Before building rename Offsets_1XXXX.hpp to Offsets.hpp
+Before building, rename Offsets_1XXXX.hpp to Offsets.hpp
 
 After building, use any DLL injector to inject it into WoW.
