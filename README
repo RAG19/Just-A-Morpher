@@ -1,6 +1,6 @@
 Just A Morpher - A morpher for x86 WoW.
 
-Support WoW versions (18019,17898,18414)
+Support World of Warcraft versions 5.4.7 (18019,17898)
 
 Before building, rename Offsets_1XXXX.hpp to Offsets.hpp
 
