@@ -1,7 +1,10 @@
 Just A Morpher - A morpher for x86 WoW.
 
-Support World of Warcraft versions 5.4.7 (18019,17898)
+Support World of Warcraft versions 5.4.1 - 5.4.7 (17538, 17898, 18019)
+This version is supported by: WoWCircle, PandaWoW, PandaShan, Uwow servers.
 
 Before building, rename Offsets_1XXXX.hpp to Offsets.hpp
 
 After building, use any DLL injector to inject it into WoW.
+Like CheatEngine, or this http://rghost.ru/7BwFjRMX5
+And just replace Just A Morpher.dll by yours.
