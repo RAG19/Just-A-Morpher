@@ -14,12 +14,12 @@ namespace JustAMorpher
 			enum : size_t
 			{
 				CGUnit_C__UpdateDisplayInfo = 0x42EC88,
-				CGUnit_C__OnMountDisplayChanged = 0x42EA73, // need to test -- 42EA29 -- 42ECCF -- 42E9DE -- 42EC9F
-				CGUnit_C__UpdateScale = 0x4253C3, // need to test -- 425114 --
+				CGUnit_C__OnMountDisplayChanged = 0x42EA73,
+				CGUnit_C__UpdateScale = 0x4253C3,
 
-				GetUnitFromName = 0x4A04BD,
+				GetUnitFromName = 0x4A04DB,
 				FrameScript__InvalidPtrCheck = 0x110C83,
-				CGGameUI__Initialize = 0x8D378C, // need to test
+				CGGameUI__Initialize = 0x8D378C,
 
 				FrameScript__RegisterFunction = 0x4F2B7,
 				FrameScript__ExecuteBuffer = 0x50236,
@@ -56,11 +56,11 @@ namespace JustAMorpher
 			{
 				MountDisplayID = 0x11C,
 
-				Race = 0x5C, // need to test
+				Race = 0x5C,
 				Gender = 0x78,
 				DisplayID = 0x114,
 				NativeDisplayID = 0x118,
-				ItemDisplayIDs = 0x28, // need to test
+				ItemDisplayIDs = 0xC04, //or E64
 			};
 		}
 	}
