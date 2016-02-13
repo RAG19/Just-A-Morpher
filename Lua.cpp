@@ -257,7 +257,7 @@ void Lua_::PushNumber (void* State, double Value) const
 Lua_::Lua_ ()
 {
 	unsigned char InvalidPtrCheck_Patch[] = { 0xC9 /*leave*/, 0xC3 /*retn*/ };
-	Memory.Write(WoWBase + Offsets::Functions::FrameScript__InvalidPtrCheck + 0x2C, InvalidPtrCheck_Patch, sizeof(InvalidPtrCheck_Patch));
+	Memory.Write(WoWBase + Offsets::Functions::FrameScript__InvalidPtrCheck + 0x2F, InvalidPtrCheck_Patch, sizeof(InvalidPtrCheck_Patch));
 }
 
 void Lua_::DoString (const std::string& String, const std::string& Name) const
